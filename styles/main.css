@@ -320,5 +320,34 @@ footer{
     }
 
 }
+.res{
+    width: 300px; /* Set a specific width */
+    background-color: #ffcaba; /* Dark-grey background */
+    display: block; /* Make the links appear below each other instead of side-by-side */
+    text-align: center; /* Center-align text */
+    padding: 20px; /* Add some padding */
+    transition: all 0.3s ease; /* Add transition for hover effects */
+    color: #ff290c; /* White text color */
+    font-size: 40px; /* Increased font-size */
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.column1 {
+    float: left;
+    width: 25%;
+    text-align: center;
+    background-color: coral;
+    padding: 0px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
 
 
