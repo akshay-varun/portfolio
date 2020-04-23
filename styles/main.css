@@ -399,5 +399,16 @@ footer{
     }
 }
 
+.left {
+    float: left;
+    top: 200px;
+    font-family: 'Marck Script', cursive;
+    color: #ff0d75;
+    font-size: 25px;
+    padding: 15px 30px;
+    position: relative;
+    text-align: center;
+    width: 550px;
+}
 
 
