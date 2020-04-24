@@ -406,7 +406,7 @@ footer{
     color: #ff043c;
     font-size: 25px;
     padding: 15px 30px;
-    position: relative;
+    position: absolute;
     text-align: center;
     width: 550px;
 }
