@@ -1,10 +1,10 @@
 .bg-img {
-    background-image: url("../images/background.jpg"); /* The image used */
-    background-color: #cccccc; /* Used if the image is unavailable */
-    height: 500px; /* You must set a specified height */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; /* Resize the background image to cover the entire container */
+    background-image: url("../images/background.jpg");
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* Position the navbar container inside the image */
@@ -15,25 +15,25 @@
 }
 
 .icon-bar {
-    width: 90px; /* Set a specific width */
-    background-color: #555; /* Dark-grey background */
+    width: 90px;
+    background-color: #555;
 }
 
 .icon-bar a {
-    display: block; /* Make the links appear below each other instead of side-by-side */
-    text-align: center; /* Center-align text */
-    padding: 16px; /* Add some padding */
-    transition: all 0.3s ease; /* Add transition for hover effects */
-    color: white; /* White text color */
-    font-size: 36px; /* Increased font-size */
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 36px;
 }
 
 .icon-bar a:hover {
-    background-color: #000; /* Add a hover color */
+    background-color: #000;
 }
 
 .active {
-    background-color: #4CAF50; /* Add an active/current color */
+    background-color: #4CAF50;
 }
 
 .card1 {
@@ -305,9 +305,6 @@ footer{
     margin-bottom: 5px;
 }
 
-/* Here is the code for Responsive Footer */
-/* You can remove below code if you don't want Footer to be responsive */
-
 
 @media (max-width: 880px) {
 
@@ -326,14 +323,14 @@ footer{
 
 }
 .res{
-    width: 300px; /* Set a specific width */
-    background-color: #ffcaba; /* Dark-grey background */
-    display: block; /* Make the links appear below each other instead of side-by-side */
-    text-align: center; /* Center-align text */
-    padding: 20px; /* Add some padding */
-    transition: all 0.3s ease; /* Add transition for hover effects */
-    color: #ff290c; /* White text color */
-    font-size: 40px; /* Increased font-size */
+    width: 300px;
+    background-color: #ffcaba;
+    display: block;
+    text-align: center;
+    padding: 20px;
+    transition: all 0.3s ease;
+    color: #ff290c;
+    font-size: 40px;
     margin-left: auto;
     margin-right: auto;
 
@@ -386,8 +383,6 @@ footer{
     }
 }
 
-
-/* Respect user preferences about animations */
 
 @media (prefers-reduced-motion: reduce) {
     .marquee {
